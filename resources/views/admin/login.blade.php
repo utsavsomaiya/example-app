@@ -7,6 +7,7 @@
         @vite('resources/js/app.js')
 </head>
 <body class="h-full overflow-hidden">
+    @include('admin.notifications')
     <img src="https://tailwindui.com/img/beams-cover@95.jpg" alt="" class="absolute top-0 left-1/2 -ml-[47.5rem] w-[122.5rem] max-w-none">
     <div class="absolute inset-0 text-slate-900/[0.07] [mask-image:linear-gradient(to_bottom_left,white,transparent,transparent)]">
     <svg class="absolute inset-0 h-full w-full" xmlns="http://www.w3.org/2000/svg">

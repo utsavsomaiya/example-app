@@ -5,8 +5,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>{{ env('APP_NAME') }}</title>
         @vite('resources/js/app.js')
+        @stack('scripts')
 </head>
 <body class="h-full">
+    @include('admin.notifications')
     <div>
         <div class="relative z-40 md:hidden" role="dialog" aria-modal="true">
             <div class="fixed inset-0 bg-gray-600 bg-opacity-75"></div>
